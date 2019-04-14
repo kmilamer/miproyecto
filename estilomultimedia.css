@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url(../img/logo_unad.png)no-repeat fixed center center #333;
+	background-size: cover;
+}
+
+#wrapper{
+	border-radius: 5px;
+	background-color: #ccc;
+	height: 600px;
+	margin: 0 auto;
+	width: 700px;
+}
+#primero{
+	border-radius: 5px;
+	background-color: #ddd;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	float: left;
+	padding: 40px;
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 500px;
+}
+#segundo{
+	border-radius: 5px;
+	background-color: #ddd;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	float: left;
+	padding: 40px;
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 200px;
+
+	
+		
+	}
+	.navegacion {
+		width: 1000px;
+		margin: 30px auto;
+		background: #fff;
+
+	}
+	.navegacion ul {
+		list-style: none;
+	}
+	.menu > li {
+        position: relative;
+		display: inline-block;
+	}
+	.menu > li> a {
+		display: block;
+		padding: 15px 20px;
+		color: #353535;
+		font-family: 'Open sans';
+		text-decoration: none;
+	}
+	.menu li a:hover {
+		color: #CE7D35;
+		transition: all 3s;
+	}
+	/* submenu*/
+	.submenu {
+		position: absolute;
+		background: #333333;
+		width: 120%;
+		visibility: hidden;
+		opacity: 0;
+		transition: opcitity 1.5s;
+	}
+
+.submenu li a {
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}	
+
+.menu li:hover .submenu {
+	visibility: visible;
+	opacity: 1;
+}
